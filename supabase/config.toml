@@ -1,0 +1,5 @@
+project_id = "iudnavjedyohjbqbmexf"
+
+# Edge Functions
+[functions.mint-nnn]
+verify_jwt = false

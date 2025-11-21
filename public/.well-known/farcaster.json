@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
+    "payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
+    "signature": "MHg..."
+  },
+  "frame": {
+    "version": "next",
+    "name": "NNN Survivor NFT",
+    "iconUrl": "https://lovable.dev/opengraph-image-p98pqg.png",
+    "homeUrl": "https://lovable.app",
+    "imageUrl": "https://lovable.dev/opengraph-image-p98pqg.png",
+    "buttonTitle": "Mint Survivor NFT",
+    "splashImageUrl": "https://lovable.dev/opengraph-image-p98pqg.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://lovable.app/api/webhook"
+  }
+}

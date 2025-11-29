@@ -52,17 +52,17 @@ export async function signInWithFarcaster(): Promise<{ address: string; fid: num
     const context = await sdk.context;
     const fid = context.user?.fid || 0;
     
-    // Request ethereum provider for wallet address
-    const provider = await sdk.wallet.ethProvider.request({
+    // Request ethereum accounts for wallet address
+    const accounts = await sdk.wallet.ethProvider.request({
       method: "eth_requestAccounts",
     });
     
-    if (!provider || !Array.isArray(provider) || provider.length === 0) {
+    if (!accounts || !Array.isArray(accounts) || accounts.length === 0) {
       console.error("No accounts returned");
       return null;
     }
     
-    const address = provider[0] as string;
+    const address = accounts[0] as string;
     
     return {
       address,
